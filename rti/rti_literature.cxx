@@ -94,12 +94,20 @@ rti_literature::remove(rti_book_sptr book, int pos)
 rti_book_sptr
 rti_literature::getBook(vcl_string isbn)
 {
-
+	for(int i = 0; i < books_.size(); i++)
+	{
+		//Need to add ISBN field to book to add this code
+		//This will search through all books until ISBN in parameter matches ISBN field of a book in library
+	}
 }
 
 std::vector<rti_book_sptr>
 rti_literature::getAllBooks()
 {
+	for(int i = 0; i < books_.size(); i++)
+	{
+		//Need to decide what info for each book in library will be displayed for user
+	}
 
 }
 //*****New Code
