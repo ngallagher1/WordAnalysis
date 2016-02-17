@@ -94,7 +94,10 @@ rti_literature::remove(rti_book_sptr book, int pos)
 rti_book_sptr
 rti_literature::getBook(vcl_string isbn)
 {
-
+	for(int i = 0; i < books_.size(); i++)
+	{
+		
+	}
 }
 
 std::vector<rti_book_sptr>
